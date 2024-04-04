@@ -8,8 +8,6 @@ st.title('Stock Market Analysis')
 
 st.write('This is my first streamlit application')
 
-
-
 ticker_symbol = st.text_input('Enter Stock Ticker', 'TSLA')
 
 ticker_data = yf.Ticker(ticker_symbol)
